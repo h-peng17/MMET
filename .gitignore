@@ -1,0 +1,11 @@
+**/data
+
+**/image_output
+
+**/text_output
+
+**/ckpt
+
+**/result
+
+**/__pycache__
