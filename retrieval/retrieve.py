@@ -12,9 +12,9 @@ import numpy as np
 import numpy
 from transformers import BertTokenizer
 
-from recall_image import ImageRecallModel, ImageEncoderModel, compute_multi_image_rep
-from recall_text import TextRecallModel
-from recall_utils import compute_topk, vote_topk, load_image_vector, load_once
+from retrieve_image import ImageRecallModel, ImageEncoderModel, compute_multi_image_rep
+from retrieve_text import TextRecallModel
+from retrieve_utils import compute_topk, vote_topk, load_image_vector, load_once
 from arguments import args
 
 def construct_image_library(args, imageRecallModel):
